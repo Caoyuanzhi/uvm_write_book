@@ -1,15 +1,15 @@
 module dut(
 	clk		,
-	rst_n		,
+	rst_n	,
 	rxd		,
-	rxd_v		,
+	rxd_v	,
 	txd		,
 	tx_en	
 );
 	input	wire		clk		;
-	input	wire		rst_n		;
+	input	wire		rst_n	;
 	input	wire[7:0]	rxd		;
-	input	wire		rxd_v		;
+	input	wire		rxd_v	;
 	output	reg[7:0]	txd		;
 	output	reg			tx_en	;
 
@@ -19,7 +19,7 @@ module dut(
 			tx_en	<= 	1'b0	;
 		end
 		else begin
-			txd	<=	rxd	;
+			txd		<=	rxd		;
 			tx_en 	<=	rxd_v	;
 		end
 	end

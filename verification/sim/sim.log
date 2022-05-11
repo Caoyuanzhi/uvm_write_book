@@ -1,0 +1,310 @@
+Command: /home/rlk/UVM_Practice/UVM_white_book/verification/sim/./simv -l sim.log
+Chronologic VCS simulator copyright 1991-2018
+Contains Synopsys proprietary information.
+Compiler version O-2018.09-SP2_Full64; Runtime version O-2018.09-SP2_Full64;  May 11 01:42 2022
+UVM_INFO /home/rlk/UVM_Practice/UVM_source_code/uvm-1.2/src/base/uvm_root.svh(392) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+UVM-1.2
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO @ 0: reporter [RNTST] Running test my_driver...
+*Verdi* Loading libsscore_vcs201809.so
+FSDB Dumper for VCS, Release Verdi_O-2018.09-SP2, Linux x86_64/64bit, 02/21/2019
+(C) 1996 - 2019 by Synopsys, Inc.
+*Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+*Verdi* : Create FSDB file 'tb.fsdb'
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* : End of traversing.
+---------------SIMULATION START-----------------
+UVM_INFO ../env/my_driver.sv(42) @ 1300000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 1500000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 1700000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 1900000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 2100000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 2300000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 2500000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 2700000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 2900000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 3100000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 3300000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 3500000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 3700000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 3900000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 4100000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 4300000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 4500000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 4700000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 4900000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 5100000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 5300000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 5500000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 5700000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 5900000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 6100000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 6300000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 6500000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 6700000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 6900000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 7100000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 7300000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 7500000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 7700000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 7900000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 8100000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 8300000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 8500000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 8700000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 8900000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 9100000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 9300000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 9500000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 9700000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 9900000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 10100000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 10300000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 10500000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 10700000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 10900000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 11100000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 11300000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 11500000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 11700000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 11900000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 12100000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 12300000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 12500000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 12700000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 12900000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 13100000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 13300000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 13500000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 13700000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 13900000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 14100000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 14300000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 14500000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 14700000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 14900000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 15100000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 15300000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 15500000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 15700000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 15900000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 16100000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 16300000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 16500000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 16700000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 16900000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 17100000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 17300000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 17500000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 17700000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 17900000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 18100000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 18300000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 18500000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 18700000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 18900000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 19100000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 19300000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 19500000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 19700000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 19900000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 20100000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 20300000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 20500000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 20700000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 20900000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 21100000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 21300000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 21500000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 21700000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 21900000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 22100000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 22300000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 22500000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 22700000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 22900000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 23100000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 23300000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 23500000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 23700000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 23900000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 24100000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 24300000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 24500000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 24700000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 24900000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 25100000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 25300000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 25500000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 25700000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 25900000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 26100000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 26300000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 26500000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 26700000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 26900000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 27100000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 27300000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 27500000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 27700000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 27900000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 28100000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 28300000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 28500000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 28700000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 28900000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 29100000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 29300000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 29500000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 29700000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 29900000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 30100000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 30300000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 30500000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 30700000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 30900000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 31100000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 31300000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 31500000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 31700000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 31900000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 32100000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 32300000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 32500000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 32700000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 32900000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 33100000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 33300000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 33500000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 33700000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 33900000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 34100000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 34300000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 34500000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 34700000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 34900000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 35100000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 35300000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 35500000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 35700000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 35900000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 36100000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 36300000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 36500000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 36700000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 36900000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 37100000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 37300000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 37500000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 37700000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 37900000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 38100000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 38300000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 38500000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 38700000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 38900000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 39100000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 39300000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 39500000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 39700000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 39900000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 40100000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 40300000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 40500000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 40700000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 40900000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 41100000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 41300000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 41500000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 41700000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 41900000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 42100000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 42300000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 42500000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 42700000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 42900000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 43100000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 43300000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 43500000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 43700000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 43900000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 44100000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 44300000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 44500000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 44700000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 44900000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 45100000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 45300000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 45500000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 45700000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 45900000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 46100000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 46300000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 46500000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 46700000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 46900000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 47100000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 47300000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 47500000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 47700000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 47900000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 48100000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 48300000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 48500000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 48700000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 48900000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 49100000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 49300000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 49500000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 49700000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 49900000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 50100000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 50300000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 50500000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 50700000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 50900000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 51100000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 51300000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 51500000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 51700000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 51900000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 52100000: uvm_test_top [my_driver] data is drived
+UVM_INFO ../env/my_driver.sv(42) @ 52300000: uvm_test_top [my_driver] data is drived
+UVM_INFO /home/rlk/UVM_Practice/UVM_source_code/uvm-1.2/src/base/uvm_report_server.svh(847) @ 52500000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :  258
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[RNTST]     1
+[UVM/RELNOTES]     1
+[my_driver]   256
+
+$finish called from file "/home/rlk/UVM_Practice/UVM_source_code/uvm-1.2/src/base/uvm_root.svh", line 517.
+$finish at simulation time             52500000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 52500000 ps
+CPU Time:      0.430 seconds;       Data structure size:   0.3Mb
+Wed May 11 01:42:45 2022

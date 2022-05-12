@@ -1,4 +1,5 @@
-
+`ifndef __MY_DRIVER__
+`define __MY_DRIVER__
 class my_driver extends uvm_driver;
 	//factory:
 	`uvm_component_utils(my_driver)
@@ -75,7 +76,7 @@ task my_driver::drive_one_pkt(my_transcation tr);
 		tmp_data = (tmp_data >> 8);
 	end	
 	
-	`uvm_info("my_driver", "begin to drive one pkt", UVM_LOW)
+	`uvm_info("my_driver", "--begin to drive one pkt", UVM_LOW)
 	
 	while(data_q.size() > 0)begin
 		@(posedge vif.clk);
@@ -86,6 +87,7 @@ task my_driver::drive_one_pkt(my_transcation tr);
 
 	@(posedge vif.clk);
 	vif.valid <= 1'b0;
-	`uvm_info("my_driver", "end drive one pkt", UVM_LOW)
+	`uvm_info("my_driver", "--end drive one pkt", UVM_LOW)
 
 endtask 
+`endif

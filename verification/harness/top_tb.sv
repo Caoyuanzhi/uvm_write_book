@@ -48,7 +48,7 @@ module top_tb;
 
 	//configure_db
 	initial begin
-		uvm_config_db#(virtual my_if)::set(null,"uvm_test_top","vif",input_if);
+		uvm_config_db#(virtual my_if)::set(null,"uvm_test_top.drv","vif",input_if);
 	end
 
 
@@ -56,7 +56,7 @@ module top_tb;
 		//my_driver drv;
 		//drv = new("drv",null);
 		//drv.main_phase(null);
-		run_test("my_driver");
+		run_test("my_env");
 
 	end
 

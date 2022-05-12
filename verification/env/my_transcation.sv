@@ -1,3 +1,6 @@
+`ifndef __MY_TRAN__
+`define __MY_TRAN__
+
 class my_transcation extends uvm_sequence_item;
 	rand bit[47:0]	dest_mac	;
 	rand bit[47:0]	src_mac		;
@@ -25,3 +28,4 @@ class my_transcation extends uvm_sequence_item;
 	endfunction 
 
 endclass 
+`endif

@@ -3,10 +3,9 @@
 
 import uvm_pkg::*;
 
-`include "../env/env_file.sv"
+`include "env_file.sv"
 
 module top_tb;
-	
 	parameter SIMULATION_TIME = 2000000;	
 	
 	reg	  		clk		;
@@ -16,6 +15,7 @@ module top_tb;
 	wire[7:0]	txd		;
 	wire		tx_en	;
 	
+	reg [63:0]	reg_value;
 	
 	//use interface
 	my_if input_if(clk,rst_n);
@@ -27,7 +27,8 @@ module top_tb;
 		.rxd	(input_if.data	),
 		.rxd_v 	(input_if.valid	),
 		.txd	(output_if.data	),
-		.tx_en 	(output_if.valid)
+		.tx_en 	(output_if.valid),
+		.reg_value(reg_value)
 	);
 	
 	initial begin
@@ -39,7 +40,7 @@ module top_tb;
 	
 	initial begin
 		rst_n = 1'b0;
-		#1000;
+		#100;
 		rst_n = 1'b1;
 	end 
 
@@ -57,11 +58,7 @@ module top_tb;
 		//drv.main_phase(null);
 		run_test("my_driver");
 
-		uvm_top.print_topology();
 	end
-
-
-
 
 	initial begin
       $fsdbDumpfile("tb.fsdb");
@@ -74,7 +71,22 @@ module top_tb;
       $display("---------------SIMULATION FINISH----------------");
       $finish;
   	end
+	
+	initial begin
+		if($test$plusargs("force_rtl"))begin
+			`include "rtl_force.sv"
+		end
+	end	
 
+
+	reg [255:0] testname;
+	final begin
+		if($value$plusargs("TEST_NAME=%s",testname))begin
+			$display("-----Run on TEST:%s",testname);	
+		end
+		
+		uvm_top.print_topology();
+	end
 
 endmodule
 

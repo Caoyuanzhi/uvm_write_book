@@ -72,11 +72,7 @@ module top_tb;
       $finish;
   	end
 	
-	initial begin
-		if($test$plusargs("force_rtl"))begin
-			`include "rtl_force.sv"
-		end
-	end	
+	`include "rtl_force.sv"
 
 
 	reg [255:0] testname;
